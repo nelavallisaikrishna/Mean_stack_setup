@@ -1,0 +1,27 @@
+{
+  "db": {
+    "mongo": {
+      "host": "localhost",
+      "port": 27017,
+      "username": null,
+      "password": null,
+      "db": "sga"
+    }
+  },
+  "cron": {
+    "campaign" : {
+      "cronTime": "0 0 6 * * *"
+    }
+  },
+  "mail":{
+    "service": "Gmail",
+    "auth": {
+      "user": "dev.medibox@gmail.com",
+      "pass": "medibox123"
+    }
+  },
+  "springedge":{
+    "key":"207s3536a557ivulw36s59d9b8103qqwzh",
+    "baseURL": "https://instantalerts.co/api/web/send/?"
+  }
+}

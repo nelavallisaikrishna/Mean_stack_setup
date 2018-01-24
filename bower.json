@@ -1,0 +1,34 @@
+{
+  "name": "SGA",
+  "description": "SGA system",
+  "main": "server.js",
+  "authors": [
+    "saikrishna nelavalli"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "3.0.0",
+    "jquery": "latest",
+    "angular": "1.6.5",
+    "angular-ui-router": "1.0.3",
+    "md-datepicker": "^1.2.1",
+    "a0-angular-storage": "^0.0.15",
+    "text-editable-directive": "text-editable#*",
+    "angular-xeditable": "^0.8.0",
+    "angular-bootstrap3-typeahead": "*",
+    "angular-ui-bootstrap": "gh-pages",
+    "moment": "^2.18.1",
+    "md-date-range-picker": "0.6.3",
+    "angular-material": "^1.1.5",
+    "angular-multiple-date-picker": "multiple-date-picker#^2.1.5",
+    "lodash": "^4.17.4",
+    "angular-utils-pagination": "latest"
+  },
+  "ignore": [
+    "bower_components",
+    "node_modules"
+  ],
+  "resolutions": {
+    "angular": "1.6.5"
+  }
+}
